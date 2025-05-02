@@ -16,7 +16,7 @@ class BasicTests(unittest.TestCase):
     def test_home_content(self):
         # Assumes your home route has a welcome message
         response = self.app.get('/')
-        self.assertIn(b'Welcome', response.data)
+        self.assertIn(b'Login', response.data)
 
 if __name__ == "__main__":
     unittest.main()
