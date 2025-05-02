@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     environment {
-        GIT_REPO = 'https://github.com/YOSKERnerv/yosker-ai-app.git'
+        GIT_REPO = 'https://github.com/yoskernervoid/yosker-project.git'
         DOCKERHUB_USER = 'yoskernervo'
         IMAGE_NAME = 'yosker_ai_app'
-        TAG = "${BUILD_NUMBER}"  // tag with Jenkins build number
+        TAG = "${BUILD_NUMBER}"
     }
 
     stages {
