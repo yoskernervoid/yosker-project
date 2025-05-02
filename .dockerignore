@@ -16,5 +16,4 @@ venv.bak/
 *.log
 *.csv
 *.pkl
-data/
-tests/ 
+data/ 
